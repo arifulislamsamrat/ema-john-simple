@@ -10,7 +10,7 @@ const Orders = () => {
                 <h2>Orders page:{cart.length}</h2>
             </div>
             <div className='cart-container'>
-                <Cart cart={[cart]} ></Cart>
+                <Cart cart={cart} ></Cart>
             </div>
             
         </div>

@@ -1,6 +1,6 @@
 import { getShoppingCart } from "../utilities/fakedb";
 
-const cartProuctsLoader =async()=>{
+const cartProductsLoader =async()=>{
     const loadedProducts =await fetch('products.json');
     const products =await loadedProducts.json();
 
@@ -26,4 +26,4 @@ const cartProuctsLoader =async()=>{
     return savedCart;
 
 }
-export default cartProuctsLoader;
+export default cartProductsLoader;
